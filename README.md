@@ -1,67 +1,62 @@
+# 📚 Bookstore API
 
-# 📚 Bookstore API  
+This is a **NestJS-powered Bookstore API** that allows users to manage books, authors, and orders efficiently. Built with **NestJS, TypeScript**, it follows best practices for **scalability, maintainability, and performance**.
 
-This is a **NestJS-powered Bookstore API** that allows users to manage books, authors, and orders efficiently. Built with **NestJS, TypeScript**, it follows best practices for **scalability, maintainability, and performance**.  
+## 🚀 Features
 
-## 🚀 Features  
+✅ **CRUD operations** for books, authors, and orders
 
-✅ **CRUD operations** for books, authors, and orders   
+## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack  
+- **NestJS** – Modular architecture for scalable backend development
+- **TypeScript** – Strictly typed for better maintainability
 
-- **NestJS** – Modular architecture for scalable backend development  
-- **TypeScript** – Strictly typed for better maintainability  
+## 📦 Installation
 
-## 📦 Installation  
+1. **Clone the repository**
 
-1. **Clone the repository**  
    ```bash
    git clone https://github.com/meshack-mbuvi/bookstore-api.git
    cd bookstore-api
-   ```  
+   ```
 
-2. **Install dependencies**  
+2. **Install dependencies**
+
    ```bash
    npm install
-   ```     
+   ```
 
-3. **Start the server**  
+3. **Start the server**
    ```bash
    npm run start:dev
-   ```  
+   ```
 
-## 🏗️ API Endpoints  
+## 🏗️ API Endpoints
 
-| Method | Endpoint          | Description                  |
-|--------|-------------------|------------------------------|
-| GET    | `/books`          | Get all books                |
-| GET    | `/books/:id`      | Get a specific book          |
-| POST   | `/books`          | Create a new book            |
-| PUT    | `/books/:id`      | Update book details          |
-| DELETE | `/books/:id`      | Delete a book                |
+| Method | Endpoint     | Description         |
+| ------ | ------------ | ------------------- |
+| GET    | `/books`     | Get all books       |
+| GET    | `/books/:id` | Get a specific book |
+| POST   | `/books`     | Create a new book   |
+| PUT    | `/books/:id` | Update book details |
+| DELETE | `/books/:id` | Delete a book       |
 
-📌 **Full API documentation available at:** `http://localhost:3000/api` (Swagger UI)  
+📌 **Full API documentation available at:** `http://localhost:3000/api` (Swagger UI)
 
-## 🔥 Running with Docker  
+## ✅ Tests
 
-```bash
-docker-compose up --build
-```  
+Run unit and e2e tests:
 
-## ✅ Tests  
-
-Run unit and e2e tests:  
 ```bash
 npm run test
 npm run test:e2e
-```  
+```
 
-## 🎯 Contributing  
+## 🎯 Contributing
 
-Feel free to **fork, contribute, or report issues**!  
+Feel free to **fork, contribute, or report issues**!
 
 ---
 
 📌 **Author:** Meshack Mbuvi  
-📌 **GitHub:** [@meshack-mbuvi](https://github.com/meshack-mbuvi)  
-
+📌 **GitHub:** [@meshack-mbuvi](https://github.com/meshack-mbuvi)
